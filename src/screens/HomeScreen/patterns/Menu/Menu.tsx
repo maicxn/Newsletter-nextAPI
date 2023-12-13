@@ -39,7 +39,7 @@ export default function Menu() {
           },
         }}
       >
-        <Text>MA</Text>
+        <Text>MO</Text>
       </Button.Base>
 
       <Button.Base
