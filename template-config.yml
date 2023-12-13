@@ -1,0 +1,9 @@
+site:
+  title: "Maicon Oliveira - Timeline"
+  description: "Bem vindo a minha timeline pessoal"
+personal:
+  name: "Maicon Oliveira"
+  avatar: "https://github.com/maicxn.png"
+  socialNetworks:
+    github: "https://www.github.com/maicxn"
+    linkedin: "https://www.linkedin.com/in/maicon-alves-de-oliveira-526698203/"
