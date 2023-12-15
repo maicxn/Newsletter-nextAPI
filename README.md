@@ -1,3 +1,2 @@
-# Gerenciando conteúdo build time com file system
-
-...
+# Simple Portfólio
+![Home](/_data/assets/newsletter.png)
