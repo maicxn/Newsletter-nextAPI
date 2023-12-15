@@ -57,8 +57,15 @@ export default function NewsletterScreen() {
             "Você foi cadastrado com sucesso! Cheque seu email para garantir"
           );
 
-          // Enviar para o servidor o email da pessoa
-          // fetch("")
+          fetch("/api/newsletter/optin", {
+            method: "POST",
+            headers: {
+              "Content-type": "application/json",
+            },
+            body: JSON.stringify(form.values),
+          }).then(async (resServer) => {
+            console.log(await resServer.json());
+          });
         }}
       >
         <Box
